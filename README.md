@@ -1,7 +1,15 @@
 # Atomos
 
 **A lightweight retexture of Vite focused on simplicity and clean structure.**
-
+---
+>
+>⚠️ Important — package.json reset issue
+>
+> Some environments or tools may regenerate package.json when renaming the project folder or reinitializing the project.
+> This can reset fields like name and scripts.
+>
+> If this happens, restore your configuration manually or revert using version control.
+>
 ---
 
 ## What Atomos Is
@@ -74,4 +82,5 @@ npm run setup
 
 > *Note: node_modules is not included in the repo.*
 > *Running npm run setup will download all dependencies automatically.*
+
 
