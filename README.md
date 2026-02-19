@@ -13,7 +13,7 @@
 
 ## Solution:
 - Manually reset it from the Link Bellow:
-- **Link**[Package.json](https://github.com/VERSE-Web/Atomos/blob/main/package.json)
+- **Link** [Package.json](https://github.com/VERSE-Web/Atomos/blob/main/package.json)
 ---
 
 ## What Atomos Is
@@ -86,6 +86,7 @@ npm run setup
 
 > *Note: node_modules is not included in the repo.*
 > *Running npm run setup will download all dependencies automatically.*
+
 
 
 
