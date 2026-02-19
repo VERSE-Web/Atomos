@@ -7,7 +7,7 @@
 ## What Atomos Is
 
 Atomos is a minimal React development environment built on top of Vite.  
-It keeps Vite’s fast engine but applies streamlined defaults, cleaner structure, and custom branding.
+It keeps Vite’s fast engine but applies streamlined defaults, cleaner structure, and custom branding with Tailwind CSS Preincluded.
 
 It’s not a new bundler.  
 It’s a refined experience.
@@ -35,9 +35,25 @@ Atomos is built on Vite, but:
 - Encourages a minimal file structure
 - Uses custom branding and CLI behavior
 - Focuses on simplicity over flexibility
+- Has Tailwind CSS Pre-installed in it
 
 Vite is a powerful general-purpose tool.  
 Atomos is a streamlined experience built on top of it.
+
+---
+
+## Commands
+
+```bash
+# Start development server
+npm run atomos
+
+# Build for production
+npm run atomos:create
+
+# Preview production build
+npm run atomos:structure
+```
 
 ---
 
@@ -52,17 +68,10 @@ cd Atomos
 
 # Install dependencies
 npm run setup
-
-# Start development server
-npm run atomos
-
-# Build for production
-npm run atomos:create
-
-# Preview production build
-npm run atomos:structure
 ```
+
 ---
 
 > *Note: node_modules is not included in the repo.*
 > *Running npm run setup will download all dependencies automatically.*
+
